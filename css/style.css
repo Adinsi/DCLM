@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+---couleurprincipal : blue;
+---deuxiemecouleur: ;
+---troisiemecouleur: ;
+---familleprincipal: ;
+---secondefamille: ;
+---dernierefamille: ;
+
+}
+
+
+header{
+    width: 100%;
+    height: 640px;
+    background-image: url("/images/imgchorale.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#logo{
+    
+    border-radius: 50%;
+}
+
+ .lien{
+     position: fixed;
+     right: 0px;
+    
+}
+
+nav a{
+    margin-right: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    border-bottom:none;
+    transition: border-bottom 1s ease-in 0s ;
+
+}
+
+nav a:hover{
+    border-bottom: 3px solid violet;
+    
+
+}
+
+.texte_accueil{
+    position: relative;
+}
+
+.texte_accueil p{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+
+span{
+    color: brown;
+}
+
+    
+
+
+.button_premier{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background: transparent;
+    border-radius: 20px;
+    margin-right: 400px;
+    border: 1px solid black;
+
+}
+
+.button_second{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 400px;
+    right: 0px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background: transparent;
+    border-radius: 20px;
+    margin-right: 400px;
+    border: 1px solid black;
+  
+}
+
+.button_premier a, .button_second a{
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.button_premier:hover,.button_second:hover{
+    background-color: violet;
+}
+
+.qui_est{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.qui_est h2{
+margin-right: 600px;
+}
+
+.img_logo{
+    
+    display: flex;
+    margin-left: 45px
+}
+.img_logo img{
+    
+    height: 300px;
+    margin-right: 20px;
+}
